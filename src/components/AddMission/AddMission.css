@@ -1,0 +1,44 @@
+.add-mission-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background: #f3f3f3;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px; 
+    margin: 20px auto; 
+    box-sizing: border-box;
+  }
+  
+  
+  .add-mission-form h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .add-mission-form input,
+  .add-mission-form select,
+  .add-mission-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .add-mission-form button {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-mission-form button:hover {
+    background-color: #45a049;
+  }
+  
